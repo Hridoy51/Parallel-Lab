@@ -1,0 +1,15 @@
+
+phonebook:951 terminated with signal 6 at PC=7f7e560839fc SP=7ffe27211190.  Backtrace:
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f7e560839fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f7e5602f476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7f7e560157f3]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7f7e562d8b9e]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7f7e562e420c]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7f7e562e4277]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7f7e562e44d8]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa27ac)[0x7f7e562d87ac]
+/lib/x86_64-linux-gnu/libstdc++.so.6(_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag+0x8a)[0x7f7e5638510a]
+./phonebook(+0x34d6)[0x5556982af4d6]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f7e56016d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f7e56016e40]
+./phonebook(+0x26e5)[0x5556982ae6e5]

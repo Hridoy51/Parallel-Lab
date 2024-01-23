@@ -1,0 +1,7 @@
+
+a:568 terminated with signal 11 at PC=7f237e69c148 SP=7fffdd666518.  Backtrace:
+/lib/x86_64-linux-gnu/libstdc++.so.6(_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2ERKS4_+0x8)[0x7f237e69c148]
+./a(+0x3396)[0x55de4f9a6396]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f237e32dd90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f237e32de40]
+./a(+0x2705)[0x55de4f9a5705]
